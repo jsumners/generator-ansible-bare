@@ -1,0 +1,4 @@
+somehost      ansible_ssh=somehost.example.com
+
+[a_group]
+somehost

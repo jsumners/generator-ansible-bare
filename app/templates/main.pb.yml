@@ -1,0 +1,27 @@
+- hosts: all
+
+#  handlers:
+#    - handlers/*.yml
+
+#  vars_files:
+#    - vars/*.yml
+
+#  roles:
+#    - role: roles/foo.yml
+#      tags:
+#        - foo
+#    - roles/*
+
+#  pre_tasks:
+#    - shell: "echo '{{foo}}'"
+#      environment:
+#        foo: hello world
+
+  tasks:
+#    - include: tasks/*
+
+#    - name: install template
+#      template:
+#        src: templates/foo.j2
+#        dest: /tmp/foo
+
