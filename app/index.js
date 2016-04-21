@@ -19,6 +19,7 @@ AnsibleGenerator.prototype.configuring = function configuring() {
     this.copy('vault.pass');
   }
 
+  mkdirp.sync(this.destinationPath('files'));
   mkdirp.sync(this.destinationPath('group_vars'));
   mkdirp.sync(this.destinationPath('handlers'));
   mkdirp.sync(this.destinationPath('host_vars'));
